@@ -93,7 +93,7 @@ dnsx -l active_subs.txt -resp -o resolved_subs.txt
 
 **SubBrute**
 ```bash
-python3 subbrute.py target.com -w wordlist.txt -o brute_force_subs.txt
+python3 subbrute.py target.com -s wordlist.txt -o brute_force_subs.txt -r resolvers.txt
 ```
 
 **FFuF Subdomain**
